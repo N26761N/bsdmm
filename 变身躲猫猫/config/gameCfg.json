@@ -1,0 +1,76 @@
+{
+    "version": "0.0.1",
+    "appId": "",
+    "subpackage":["3dres","3dlh","sound","game","role"],
+    "configVersion":"2",
+    "configList":[
+    ],
+    "fontList": [        
+        "guoshancheshuzi02",
+        "guoshancheshuzi03",
+        "jifenwenzi",
+        "score",
+        "shuzi01",
+        "shuzi02",
+        "shuzi03"
+    ],
+    "baseResList": [
+        
+    ],
+    "bgm": "",
+    "soundClick": "sound/buttonClick.wav",
+    "soundViewOpen": "sound/viewOpen.wav",
+    "default3DScene": null,
+    "viewMap": {
+        "loading": "view/comm/LoadingPage.scene",
+        "home": "view/comm/HomePage.scene",
+        "rank": "view/comm/RankPage.scene",
+        "playing": "view/game/GamePage.scene",
+        "relive": "view/comm/RelivePage.scene",
+        "score": "view/comm/WinPage.scene",
+        "store": "view/game/StorePage.scene",
+        "screenAd": "view/ad/FullAd.scene",
+        "floatAd": "view/ad/FloatAd.scene",
+        "listAd": "view/ad/ListAd.scene",
+        "knockEggAd": "view/ad/KnockEgg.scene",
+        "gameLoading":"view/game/GameLoadingPage.scene"
+    },
+    "useWebApi": false,
+    "useWebAdApi": false,
+    "webApiSign": "bsdmm_api_secret",
+    "webApiMap": {
+        "login": "Zhise/User/login",
+        "authorize": "",
+        "gameCfg": "Zhise/Game/config",
+        "updateInfo": "Zhise/User/update",
+        "gameStart": "Zhise/Game/start",
+        "gameEnd": "Zhise/Game/end",
+        "worldRank": null,
+        "logVideo": "Zhise/Game/video",
+        "requestStoreData": "Zhise/Store/index",
+        "requestEquipItem": "Zhise/Store/use_goods",
+        "exchangeCoin": "Zhise/Game/video",
+        "unlockGoodsByGold": "Zhise/Store/unlock_gold",
+        "unlockGoodsByVideo": "Zhise/Store/unlock_video"
+    },
+    "defaultCfg": {
+        "playerInfo": {
+            "user_id": "1",
+            "is_new":1, 
+            "level_id":1,
+            "gold":0,
+            "level_start":1
+        },
+        "gameSetting": {
+            "test":163,"bossDiamondStart":0,"AiRun":0.5,"BossFollowSpeicalRoad":0.6,"DailyBoxData":[{"type":1,"probability":0.3,"count":200},{"type":1,"probability":0.3,"count":400},{"type":2,"probability":0.2,"count":20},{"type":2,"probability":0.2,"count":30}],"NormalBoxData":[{"type":2,"probability":0.3,"count":20},{"type":1,"probability":0.3,"count":400},{"type":1,"probability":0.2,"count":600},{"type":2,"probability":0.1,"count":30},{"type":2,"probability":0.1,"count":40}],"RareBoxData":[{"type":2,"probability":0.3,"count":40},{"type":2,"probability":0.2,"count":60},{"type":1,"probability":0.2,"count":500},{"type":1,"probability":0.2,"count":1000},{"type":2,"probability":0.1,"count":120}],"ShopRoleData":{"0":{"1":{"attack":0,"blood":2,"speed":2,"fragment":100,"needcount":500,"needtype":1},"2":{"attack":0,"blood":4,"speed":2.3,"fragment":200,"needcount":1000,"needtype":1},"3":{"attack":0,"blood":6,"speed":2.5,"fragment":300,"needcount":2000,"needtype":1},"4":{"attack":0,"blood":8,"speed":2.8,"fragment":500,"needcount":3000,"needtype":1},"5":{"attack":0,"blood":10,"speed":3,"fragment":0,"needcount":0,"needtype":0}},"1":{"1":{"attack":0,"blood":3,"speed":2,"fragment":100,"needcount":500,"needtype":1},"2":{"attack":0,"blood":6,"speed":2.3,"fragment":200,"needcount":1000,"needtype":1},"3":{"attack":0,"blood":8,"speed":2.5,"fragment":300,"needcount":2000,"needtype":1},"4":{"attack":0,"blood":10,"speed":2.8,"fragment":500,"needcount":3000,"needtype":1},"5":{"attack":0,"blood":10,"speed":3,"fragment":0,"needcount":0,"needtype":0}},"2":{"1":{"attack":0,"blood":2,"speed":2.3,"fragment":100,"needcount":500,"needtype":1},"2":{"attack":0,"blood":4,"speed":2.5,"fragment":200,"needcount":1000,"needtype":1},"3":{"attack":0,"blood":6,"speed":2.8,"fragment":300,"needcount":2000,"needtype":1},"4":{"attack":0,"blood":8,"speed":2.8,"fragment":500,"needcount":3000,"needtype":1},"5":{"attack":0,"blood":10,"speed":3,"fragment":0,"needcount":0,"needtype":0}},"3":{"1":{"attack":0,"blood":2,"speed":2,"fragment":100,"needcount":500,"needtype":1},"2":{"attack":0,"blood":4,"speed":2.3,"fragment":200,"needcount":1000,"needtype":1},"3":{"attack":0,"blood":6,"speed":2.5,"fragment":300,"needcount":2000,"needtype":1},"4":{"attack":0,"blood":8,"speed":2.8,"fragment":500,"needcount":3000,"needtype":1},"5":{"attack":0,"blood":10,"speed":3,"fragment":0,"needcount":0,"needtype":0}},"4":{"1":{"attack":0,"blood":2,"speed":2.3,"fragment":100,"needcount":500,"needtype":1},"2":{"attack":0,"blood":4,"speed":2.5,"fragment":200,"needcount":1000,"needtype":1},"3":{"attack":0,"blood":6,"speed":2.8,"fragment":300,"needcount":2000,"needtype":1},"4":{"attack":0,"blood":8,"speed":2.8,"fragment":500,"needcount":3000,"needtype":1},"5":{"attack":0,"blood":10,"speed":3,"fragment":0,"needcount":0,"needtype":0}},"5":{"1":{"attack":0,"blood":3,"speed":2,"fragment":100,"needcount":500,"needtype":1},"2":{"attack":0,"blood":6,"speed":2.3,"fragment":200,"needcount":1000,"needtype":1},"3":{"attack":0,"blood":8,"speed":2.5,"fragment":300,"needcount":2000,"needtype":1},"4":{"attack":0,"blood":10,"speed":2.8,"fragment":500,"needcount":3000,"needtype":1},"5":{"attack":0,"blood":10,"speed":3,"fragment":0,"needcount":0,"needtype":0}}},"ShopBossData":{"0":{"1":{"attack":1,"blood":1,"speed":2.2,"fragment":100,"needcount":500,"needtype":1},"2":{"attack":2,"blood":1,"speed":2.5,"fragment":200,"needcount":1000,"needtype":1},"3":{"attack":3,"blood":1,"speed":2.7,"fragment":300,"needcount":2000,"needtype":1},"4":{"attack":4,"blood":1,"speed":3,"fragment":500,"needcount":3000,"needtype":1},"5":{"attack":5,"blood":1,"speed":3.2,"fragment":0,"needcount":0,"needtype":0}}},"GameResultData":{"role":[{"gold":150,"diamond":20,"fragment":20},{"gold":100,"diamond":15,"fragment":15},{"gold":75,"diamond":10,"fragment":10},{"gold":50,"diamond":5,"fragment":5},{"gold":10,"diamond":0,"fragment":5}],"boss":[{"gold":50,"diamond":0,"fragment":5},{"gold":50,"diamond":10,"fragment":5},{"gold":100,"diamond":20,"fragment":10},{"gold":150,"diamond":30,"fragment":15},{"gold":200,"diamond":40,"fragment":20},{"gold":300,"diamond":60,"fragment":30}]},"GameBoxDiamond":49,"DestroyItemTime":5,"RefreshItemGold":100,"bossSkillTime":[10,10],"BoxGoldBuyList":[3,3,1],"roleSkillInfo":{"accelerate":"1,10,10","stealth":"10,20","recover":15},"bossSkillInfo":{"accelerate":"1,10,10","imprisonment":"5,20","hint":15},"PropDiamond":50,"fuGetDiamond":10,"taskData":[{"mode":1,"desc":"\u5b8c\u6210\u55b5\u55b5\u6a21\u5f0f","num":1,"type":1,"count":100,"integral":10},{"mode":2,"desc":"\u5b8c\u6210\u5996\u602a\u6a21\u5f0f","num":1,"type":1,"count":200,"integral":20},{"mode":3,"desc":"\u7b7e\u5230","num":1,"type":1,"count":100,"integral":10},{"mode":4,"desc":"完成封印模式","num":1,"type":1,"count":200,"integral":20},{"mode":5,"desc":"\u8d2d\u4e70\u6280\u80fd","num":1,"type":2,"count":20,"integral":20},{"mode":6,"desc":"\u6253\u5f00\u6bcf\u65e5\u5b9d\u7bb1","num":1,"type":1,"count":100,"integral":10},{"mode":7,"desc":"\u8d2d\u4e70\u788e\u7247","num":1,"type":1,"count":100,"integral":20}],"taskBoxData":[{"type":1,"count":200,"fragmentCount":10},{"type":1,"count":300,"fragmentCount":20},{"type":2,"count":10,"fragmentCount":30},{"type":2,"count":20,"fragmentCount":40},{"type":2,"count":50,"fragmentCount":50}],"curPlayTime":[60,65,70,75,80,85,90,90,90,90],"ChatData":{"start":[{"content":"\u5927\u5bb6\u597d\u5440"},{"content":"\u6b22\u8fce\u5f00\u59cb\u6e38\u620f"},{"content":"\u5927\u5bb6\u5feb\u8eb2\u597d"},{"content":"\u6211\u8eb2\u597d\u4e86"},{"content":"\u5927\u5bb6\u4e00\u8d77\u52a0\u6cb9"},{"content":"\u5996\u602a\u5feb\u767b\u573a\u4e86"},{"content":"\u6211\u9009\u597d\u4e86"},{"content":"\u5996\u602a\u4e00\u5b9a\u627e\u4e0d\u5230\u6211"},{"content":"\u8fd9\u6e38\u620f\u771f\u597d\u73a9"}],"game":[{"content":"\u5927\u5bb6\u5feb\u8eb2\u597d"},{"content":"\u770b\u4e0d\u5230\u6211\u770b\u4e0d\u5230\u6211"},{"content":"\u8fd9\u4e2a\u5996\u602a\u597d\u5f3a\u554a"},{"content":"\u6211\u8981\u8f6c\u79fb\u4e86"},{"content":"\u4e0d\u6562\u52a8\uff0c\u4e0d\u6562\u52a8"},{"content":"\u545c\u545c\u545c\uff0c\u6211\u8981\u88ab\u6dd8\u6c70\u4e86"},{"content":"\u6211\u53bb\u627e\u793c\u76d2\u4e86"},{"content":"\u4e0b\u6b21\u518d\u6765\u73a9"},{"content":"\u8fd8\u6709\u8fd9\u4e48\u4e45\u554a~"},{"content":"\u4f60\u4f1a\u4e0d\u4f1a\u73a9"},{"content":"\u4f60\u8eb2\u7684\u771f\u597d"}]},"GiftCodeData":{"BSDMM0121":{"gold":0,"diamond":400,"fragmentCount":0},"duomaomao":{"gold":0,"diamond":200,"fragmentCount":0},"shoujifuzhuan":{"gold":0,"diamond":0,"fragmentCount":100},"yaoguaizhenzi":{"gold":0,"diamond":100,"fragmentCount":0},"\u516d\u4e00\u513f\u7ae5\u8282\u5feb\u4e50":{"gold":6100,"diamond":610,"fragmentCount":61}},"ShareLuckyData":[{"type":1,"probability":0.3,"count":500},{"type":2,"probability":0.3,"count":50},{"type":1,"probability":0.2,"count":1000},{"type":2,"probability":0.2,"count":100},{"type":1,"probability":0.1,"count":1500},{"type":3,"probability":0.1,"count":1}],"rankData":[{"rank":"brass_0","experience":0,"gold":0,"diamonds":50},{"rank":"brass_1","experience":10,"gold":100,"diamonds":10},{"rank":"brass_2","experience":20,"gold":200,"diamonds":10},{"rank":"brass_3","experience":40,"gold":300,"diamonds":10},{"rank":"silver_0","experience":60,"gold":0,"diamonds":50},{"rank":"silver_1","experience":80,"gold":400,"diamonds":0},{"rank":"silver_2","experience":100,"gold":500,"diamonds":0},{"rank":"silver_3","experience":150,"gold":600,"diamonds":0},{"rank":"gold_0","experience":200,"gold":0,"diamonds":100},{"rank":"gold_1","experience":260,"gold":1000,"diamonds":0},{"rank":"gold_2","experience":300,"gold":1300,"diamonds":0},{"rank":"gold_3","experience":400,"gold":1500,"diamonds":0},{"rank":"platinum_0","experience":500,"gold":0,"diamonds":150},{"rank":"platinum_1","experience":600,"gold":1800,"diamonds":0},{"rank":"platinum_2","experience":700,"gold":2100,"diamonds":0},{"rank":"platinum_3","experience":800,"gold":2500,"diamonds":0},{"rank":"diamond_0","experience":1000,"gold":0,"diamonds":200},{"rank":"diamond_1","experience":1200,"gold":2800,"diamonds":0},{"rank":"diamond_2","experience":1400,"gold":3000,"diamonds":0},{"rank":"diamond_3","experience":1600,"gold":3300,"diamonds":0},{"rank":"master_0","experience":2000,"gold":0,"diamonds":300},{"rank":"master_1","experience":2500,"gold":3500,"diamonds":0},{"rank":"master_2","experience":3000,"gold":4000,"diamonds":0},{"rank":"master_3","experience":3500,"gold":5000,"diamonds":0},{"rank":"skilled_0","experience":4000,"gold":0,"diamonds":400},{"rank":"skilled_1","experience":4300,"gold":5500,"diamonds":0},{"rank":"skilled_2","experience":4600,"gold":6000,"diamonds":0},{"rank":"skilled_3","experience":5000,"gold":7000,"diamonds":0},{"rank":"king","experience":6000,"gold":0,"diamonds":500}],"reslutRankScore":{"role":[50,40,30,20,10,0],"boss":[0,10,20,30,40,50]}
+        },
+        "levelData": {
+            "game_id": "-1",
+            "rewardGold":10
+        }
+    },
+    "storeCfg": {
+        "typeMap": ["icon/","icon/","icon/"],
+        "exchangeRate": 500
+    }
+}
